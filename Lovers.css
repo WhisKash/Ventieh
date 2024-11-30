@@ -1,0 +1,57 @@
+@font-face {
+  font-family: KOntyol;
+  src: url(black_chancery/Aesthetic_Free_Trial.otf);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: KOntyol;
+}
+
+.container {
+  background-image: url('/Photo/1309003\ \(1\).jpg'); /* Ganti dengan URL gambar background Anda */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color:white;
+}
+
+.logo img {
+  width: 100px; /* Ukuran logo yang diperbesar */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.nav li {
+  cursor: pointer;
+  color: white ;
+}
+
+h1.venti {
+  font-size: 100px; /* Ukuran teks "Venti" */
+  text-align: center;
+  margin-top: 15%; /* Mengangkat teks "Venti" sedikit lebih tinggi */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7); /* Bayangan pada teks "Venti" */
+}
+
+.description {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-top: -2cm; /* Mengurangi jarak antara "Venti" dan deskripsi */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Bayangan pada deskripsi */
+}

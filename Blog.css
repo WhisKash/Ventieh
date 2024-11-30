@@ -1,0 +1,67 @@
+@font-face {
+  font-family: KOntyol;
+  src: url(black_chancery/Aesthetic_Free_Trial.otf);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: KOntyol;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color:white;
+}
+
+.logo img {
+  width: 100px; /* Ukuran logo yang diperbesar */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.nav li {
+  cursor: pointer;
+  color: white ;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  background-image: url('Photo/1219687.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+h1 {
+  color: #4a90e2;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+}
